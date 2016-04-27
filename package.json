@@ -1,0 +1,66 @@
+{
+  "name": "serve-swagger-editor",
+  "version": "1.0.1",
+  "description": "swagger-editor middleware",
+  "main": "index.js",
+  "author": {
+    "name": "Morten Andersen"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/moander/serve-swagger-editor#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moander/serve-swagger-editor.git"
+  },
+  "keywords": [
+    "swagger",
+    "swagger-editor",
+    "swagger-editor-backend"
+  ],
+  "bugs": {
+    "url": "https://github.com/moander/serve-swagger-editor/issues"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  },
+  "dependencies": {
+    "connect": "^3.4.0",
+    "express": "^4.13.4",
+    "serve-static": "^1.10.2",
+    "swagger-editor": "^2.9.6",
+    "swagger-ui": "^2.1.4",
+    "underscore": "^1.8.3"
+  },
+  "gitHead": "c04f03a95ff368d81174afe17e71806d90a5e77b",
+  "_id": "serve-swagger-editor@1.0.1",
+  "_shasum": "af3a1b9fae0e30b3e6acc24b9babef701830e756",
+  "_from": "serve-swagger-editor@*",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "moander",
+    "email": "m@asl.wtf"
+  },
+  "dist": {
+    "shasum": "af3a1b9fae0e30b3e6acc24b9babef701830e756",
+    "tarball": "https://registry.npmjs.org/serve-swagger-editor/-/serve-swagger-editor-1.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "moander",
+      "email": "m@asl.wtf"
+    }
+  ],
+  "_resolved": "https://registry.npmjs.org/serve-swagger-editor/-/serve-swagger-editor-1.0.1.tgz"
+}
